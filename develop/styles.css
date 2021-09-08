@@ -1,4 +1,108 @@
 body{
-    color:white;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#headerLogo{
+    height: 150px;
+    width: 150px;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #navBar li {
+    float: right;
+  }
+  
+  #navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #navBar li a:hover {
+    background-color: rgb(165, 164, 164);
+  }
+  
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    text-align: center;
+}
+
+#bottomBorder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#covid{
+
+}
+
+#locationInfo{
+    color: white;
+}
+
+#locationInfo ul{
+    list-style-type: none;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#location{
+    height:auto;
+    width: 250px;
+    margin: 15px;
+}
+
+#contactIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#callIcon{
+    height:55px;
+    width:auto;
+}
+
+#emailIcon{
+    height:55px;
+    width:55px;
+    margin-left: -12px;
+}
+
+#instaIcon{
+    height:35px;
+    width:35px;
+}
+
+#linkedInIcon{
+    height:35px;
+    width:35px;
 }
