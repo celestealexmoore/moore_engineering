@@ -9,6 +9,10 @@ body {
   font-family: sans-serif;
 }
 
+#resumeOpening{
+    text-align: center;
+}
+
 #navBar {
   float: right;
 }
@@ -103,4 +107,31 @@ ul {
   height: 20px;
   flex-wrap: nowrap;
   flex-direction: row;
+}
+
+
+/* Resume CSS */
+
+.titles{
+  text-decoration: underline;  
+}
+
+#competenciesUl{
+    list-style-type:circle;
+}
+
+#experienceUl{
+    list-style-type:disc;
+}
+
+#body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: sans-serif;
 }
