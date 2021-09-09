@@ -46,9 +46,7 @@
 
 ## Media
 
-### Wireframe
-
-![](./assets/images/wireframe.png)
+![](../assets/photos/sitePreview.png)
 
 ## User Story
 
