@@ -46,7 +46,7 @@
 
 ## Media
 
-![](../assets/photos/sitePreview.png)
+![](./assets/photos/sitePreview.png)
 
 ## User Story
 
