@@ -79,7 +79,9 @@
 
 ## Deployed Site
 
-    Coming Soon!
+    This website can be accessed here:
+
+    https://celestealexmoore.github.io/moore_engineering/
 
 ## Features
     - Single-page application
